@@ -1,3 +1,5 @@
+/* Entire WebPage */
+
 * {
 
 }
@@ -12,6 +14,7 @@ p {
     font-size: 16px;
 }
 
+/* Header Includes Title, nav bar, top photo and photo caption */
 header {
     background-color: aqua;
     display: flex;
@@ -76,6 +79,7 @@ h2 {
     margin-right: 10px;
 }
 
+/* Main includes sections of "About Me", "Portfolio" and "Contact" */
 main {
     display: flex;
     flex-direction: column;
@@ -103,6 +107,7 @@ h3, h4, h5 {
     margin: auto;
 }
 
+    /* Work Section */
 .portfolio {
     height: 800px;
 }
@@ -137,7 +142,7 @@ h3, h4, h5 {
 .minor-work img {
 
 }
-
+    /* Contact Section */
 .contact {
     display: flex;
     height: 100px
@@ -154,6 +159,7 @@ h3, h4, h5 {
     align-items: center;
 }
 
+/* Footer */
 footer {
     display: flex;
     height: 100px;
