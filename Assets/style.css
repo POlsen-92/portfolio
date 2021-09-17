@@ -8,6 +8,7 @@ body {
     background-image: url(./images/background.jfif); 
     background-size: cover;
     background-position: center;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 p {
@@ -28,8 +29,8 @@ header {
 
 h1 {
     display: flex;
-    font-family: 'Oswald';
-    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 54px;
     font-weight: 700;
     width: 20%;
     justify-content: flex-start;
@@ -40,6 +41,11 @@ a {
     text-decoration: none;
     color: black;
 }
+
+nav a {
+    font-size: 20px;
+}
+
 nav {
     display: flex;
     width: 100%;
@@ -75,9 +81,9 @@ h2 {
     background-color: rgba(128, 128, 128, .75);
     border-radius: 50%;
     box-shadow: 3px 3px 15px 5px rgba(128, 128, 128);
+    font-size: 20px;
     color: white;
     display: flex;
-    font-family: ;
     font-weight: bold;
     align-self: flex-end;
     margin-right: 15px;
@@ -98,6 +104,9 @@ section {
 h3, h4, h5 {
     display: flex;
     width: 20%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
     justify-content: space-evenly;
     align-items: center;
     border-right: 2px solid gray;
