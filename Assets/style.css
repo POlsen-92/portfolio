@@ -18,7 +18,7 @@ p {
 /* Header Includes Title, nav bar, top photo and photo caption */
 header {
     background-color: aqua;
-    display: flex;
+    /* display: flex; */
     width: 100%;
     height: 300px;
     flex-direction: column;
@@ -28,12 +28,13 @@ header {
 }
 
 h1 {
-    display: flex;
+    /* display: flex; */
+    color: rgb(73, 71, 71);
     font-family: 'Oswald', sans-serif;
     font-size: 54px;
     font-weight: 700;
     width: 20%;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     margin-left: 15px;
 }
 
@@ -50,7 +51,7 @@ nav {
     display: flex;
     width: 100%;
     height: 100px;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
 }
 
@@ -62,9 +63,9 @@ nav ul {
 }    
 
 nav li {
-    display: inline-flex;
-    justify-content: flex-end;
-    align-self: center;
+    /* display: inline-flex; */
+    /* justify-content: flex-end; */
+    /* align-self: center; */
     padding: 10px;
     margin: 10px;
     border: 1px white solid;
@@ -73,42 +74,43 @@ nav li {
 
 figcaption {
     display: flex;
-    height: 200px;
     justify-content: flex-end;
+    height: 200px;
 }
 
 h2 {
+    /* display: flex; */
+    margin-right: 15px;
+    margin-bottom: 15px;
+    align-self: flex-end;
+    color: white;
+    font-size: 20px;
+    /* font-weight: bold; */
     background-color: rgba(128, 128, 128, .75);
     border-radius: 50%;
     box-shadow: 3px 3px 15px 5px rgba(128, 128, 128);
-    font-size: 20px;
-    color: white;
-    display: flex;
-    font-weight: bold;
-    align-self: flex-end;
-    margin-right: 15px;
-    margin-bottom: 15px;
 }
 
 /* Main includes sections of "About Me", "Portfolio" and "Contact" */
 main {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 section {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 h3, h4, h5 {
     display: flex;
+    justify-content: space-evenly;
     width: 20%;
+    align-items: center;
     font-family: 'Oswald', sans-serif;
+    color: rgb(73, 71, 71);
     font-size: 35px;
     font-weight: 600;
-    justify-content: space-evenly;
-    align-items: center;
     border-right: 2px solid gray;
 }
 
@@ -161,7 +163,9 @@ h3, h4, h5 {
     /* Contact Section */
 .contact {
     display: flex;
-    height: 100px
+    height: 100px;
+    color: rgb(73, 71, 71);
+    font-weight: 600;
 }
 
 .contact ul {
@@ -173,6 +177,11 @@ h3, h4, h5 {
 .contact li {
     display: inline-flex;
     align-items: center;
+    font-size: 20px;
+}
+
+.contact a {
+    font-size: 20px;
 }
 
 /* Footer */
