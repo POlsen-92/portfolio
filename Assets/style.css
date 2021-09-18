@@ -1,4 +1,7 @@
 /* Entire WebPage */
+:root {
+    --dark: rgb(73, 71, 71);
+}
 
 * {
 
@@ -17,8 +20,6 @@ p {
 
 /* Header Includes Title, nav bar, top photo and photo caption */
 header {
-    background-color: aqua;
-    /* display: flex; */
     width: 100%;
     height: 300px;
     flex-direction: column;
@@ -28,30 +29,24 @@ header {
 }
 
 h1 {
-    /* display: flex; */
-    color: rgb(73, 71, 71);
+    color: var(--dark);
     font-family: 'Oswald', sans-serif;
     font-size: 54px;
     font-weight: 700;
     width: 20%;
-    /* justify-content: flex-start; */
     margin-left: 15px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 nav a {
+    text-decoration: none;
     font-size: 20px;
+    color: black;
 }
 
 nav {
     display: flex;
     width: 100%;
     height: 100px;
-    /* justify-content: flex-end; */
     align-items: center;
 }
 
@@ -63,55 +58,43 @@ nav ul {
 }    
 
 nav li {
-    /* display: inline-flex; */
-    /* justify-content: flex-end; */
-    /* align-self: center; */
     padding: 10px;
     margin: 10px;
-    border: 1px white solid;
+    border: 1px var(--dark) solid;
     border-radius: 10px;
 }
 
-figcaption {
+header figcaption {
     display: flex;
     justify-content: flex-end;
     height: 200px;
 }
 
 h2 {
-    /* display: flex; */
     margin-right: 15px;
     margin-bottom: 15px;
     align-self: flex-end;
-    color: white;
+    color: rgb(221, 210, 210);
     font-size: 20px;
-    /* font-weight: bold; */
-    background-color: rgba(128, 128, 128, .75);
     border-radius: 50%;
-    box-shadow: 3px 3px 15px 5px rgba(128, 128, 128);
+    box-shadow: 5px 5px 15px 5px var(--dark)
 }
 
 /* Main includes sections of "About Me", "Portfolio" and "Contact" */
-main {
-    /* display: flex; */
-    /* flex-direction: column; */
-}
-
 section {
     display: flex;
-    /* flex-direction: row; */
 }
 
-h3, h4, h5 {
+h3, h4, h6 {
     display: flex;
     justify-content: space-evenly;
     width: 20%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
-    color: rgb(73, 71, 71);
+    color: var(--dark);
     font-size: 35px;
     font-weight: 600;
-    border-right: 2px solid gray;
+    border-right: 2px solid var(--dark);
 }
 
 .about_me {
@@ -136,6 +119,11 @@ h3, h4, h5 {
     gap: 10px;
 }
 
+.work a {
+    text-decoration: none;
+    /* font-size: 20px; */
+}
+
 .main-work {
     display: flex;
     height: 60%;
@@ -143,9 +131,30 @@ h3, h4, h5 {
     align-items: center;
 }
 
-.main-work img {
+.portfolio figure {
+    display: flex;
+    background-image: url(./images/mainwork.jfif);
+    background-size: cover;
+    background-position: center;
     height: 100%;
-    width: auto;
+    width: 75%;
+    border: 3px solid var(--dark);
+}
+
+label {
+    display: flex;
+    position: relative;
+    align-self: flex-end;
+    flex-direction: column;
+    height: 20%;
+    width: 20%;
+    bottom: 20%;
+    color: rgb(221, 210, 210);
+    background-color: var(--dark);
+}
+
+h5 {
+    
 }
 
 .minor-work {
@@ -153,31 +162,48 @@ h3, h4, h5 {
     height: 40%;
     justify-content: space-evenly;
     align-items: center;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
-.minor-work img {
-    height: 100%;
-    width: auto;
+.mw-1 {
+    background-image: url(./images/mainwork.jfif);
+    background-size: cover;
+    background-position: center;
 }
+
+.mw-2 {
+    background-image: url(./images/mainwork.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.mw-3 {
+    background-image: url(./images/mainwork.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
     /* Contact Section */
 .contact {
     display: flex;
     height: 100px;
-    color: rgb(73, 71, 71);
+    color: var(--dark);
     font-weight: 600;
 }
 
 .contact ul {
     display: flex;
     width: 80%;
+    height: 60px;
     justify-content: space-evenly;
+    align-self: center;
 }
 
 .contact li {
     display: inline-flex;
     align-items: center;
-    font-size: 20px;
+    border-top: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
 }
 
 .contact a {
