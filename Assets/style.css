@@ -45,8 +45,6 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-size: 20px;
-    color: black;
 }
 
 nav ul {
@@ -57,8 +55,11 @@ nav ul {
 }    
 
 nav li {
+    font-size: 20px;
+    color: black;
     padding: 10px;
     margin: 10px;
+    background-color: rgba(221, 210, 210, .75);
     border: 1px var(--dark) solid;
     border-radius: 10px;
 }
@@ -169,7 +170,7 @@ h3, h4, h6 {
 .main-work figure {
     background-image: url(./images/snippets_screenshot.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     min-width: 300px;
     height: 600px;
 }
@@ -221,22 +222,32 @@ figure p {
 }
 
 .mw-1 {
-    background-image: url(./images/portfolio\ screenshot.png);
+    background-image: url(./images/portfolio_screenshot.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .mw-2 {
     background-image: url(./images/refactor_screenshot.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .mw-3 {
     background-image: url(./images/park.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
+
+nav li:hover {
+    background-color: rgba(221, 210, 210, 0);
+    border: 2px var(--dark) solid;
+}
+
+figure:hover {
+    border: 8px solid rgb(182, 171, 171);
+}
+
 
     /* Contact Section */
 .contact {
@@ -337,6 +348,11 @@ footer {
         flex-direction: column;
         min-height: 300px;
     }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }    
 
     section {
         flex-direction: column;

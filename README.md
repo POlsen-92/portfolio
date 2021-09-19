@@ -1,17 +1,12 @@
-# 02 Advanced CSS: Portfolio
+# My Portfolio
 
-## Your Task
-
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
-
+```
+For this project I have created a portfolio which highlights my style as well as providing functionality for employers to preview my work. 
+- As the screen changes size the format of the website adjusts to make reading a delight. 
+- The navigation options change border and background color when hovered over and will take the reader to the designated portions of the webpage
+- The portfolio images change border color when hovered over them and when clicked will take the reader to my github repo for this project and the deployed site for others. 
+- Within the contact portion of the webpage there are several available methods to contact me. If one clicks on my email it will open their default email. The GitHub and LinkedIn buttons will take the reader to the relevant profile pages in a separate browser tab.
+```
 
 ## User Story
 
@@ -43,54 +38,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 
-## Mock-Up
+## ScreenShot of WebPage
 
-The following animation shows the web application's appearance and functionality:
+![screenshot](Assets/images/portfolio_screenshot.png)
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+## URL of WebPage
 
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+https://polsen-92.github.io/portfolio/
