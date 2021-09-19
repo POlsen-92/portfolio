@@ -1,5 +1,7 @@
 # My Portfolio
 
+<details>
+<summary>
 ```
 For this project I have created a portfolio which highlights my style as well as providing functionality for employers to preview my work. 
 - As the screen changes size the format of the website adjusts to make reading a delight. 
@@ -7,7 +9,8 @@ For this project I have created a portfolio which highlights my style as well as
 - The portfolio images change border color when hovered over them and when clicked will take the reader to my github repo for this project and the deployed site for others. 
 - Within the contact portion of the webpage there are several available methods to contact me. If one clicks on my email it will open their default email. The GitHub and LinkedIn buttons will take the reader to the relevant profile pages in a separate browser tab.
 ```
-
+</summary>
+</details
 ## User Story
 
 ```
