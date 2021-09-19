@@ -1,6 +1,6 @@
 # My Portfolio
 
-##My Work
+## My Work
 <summary>
 For this project I have created a portfolio which highlights my style as well as providing functionality for employers to preview my work. 
 - As the screen changes size the format of the website adjusts to make reading a delight. 
