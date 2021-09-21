@@ -11,6 +11,13 @@ the designated portions of the webpage
 project and the deployed site for others. 
 - Within the contact portion of the webpage there are several available methods to contact me. If one clicks on my email it will 
 open their default email. The GitHub and LinkedIn buttons will take the reader to the relevant profile pages in a separate browser tab.
+- The navigation options change border and background color when hovered over and will take the reader 
+  to the designated portions of the webpage
+- The portfolio images change border color when hovered over them and when clicked will take the reader 
+  to my github repo for this project and the deployed site for others. 
+- Within the contact portion of the webpage there are several available methods to contact me. If one 
+  clicks on my email it will open their default email. The GitHub and LinkedIn buttons will take the 
+  reader to the relevant profile pages in a separate browser tab.
 </pre>
 
 ## User Story
